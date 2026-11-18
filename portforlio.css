@@ -154,6 +154,7 @@ footer {
       font-size: 13px;
       padding:14px 20px;
       width: 42%;
+      gap: 4px;
     }
     .button{
       gap: 10px;
