@@ -24,7 +24,6 @@ main{
 .first-info{
      font-size: 20px;
     font-weight: 500;
-    
     margin-top: 15px;
     color: white;
        display: flex;
@@ -114,3 +113,58 @@ footer {
   font-size: 27px;
    color: rgba(244, 238, 238, 0.597);
 }
+@media(max-width:700px){
+  .stats{
+   font-size: 15px; 
+  }
+}
+@media(max-width:508px){
+  a{ 
+    width: 40%;
+    font-size: 14px;
+}
+}
+    @media(max-width:419px){
+      .ayo-image{
+        width: 120px;
+        height: 120px;
+    
+      }
+      .first-info{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+      .tarmac{
+        justify-content: center;
+        font-size: 22px;
+      }
+      .first-info h1{
+        font-size: 22px;
+      }
+      .ette{
+        font-size: 15px;
+      }
+    .stats{
+      font-size: 12px;
+      gap:20px;
+      padding-top: 0px;
+    }
+    a{
+      font-size: 13px;
+      padding:14px 20px;
+      width: 42%;
+    }
+    .button{
+      gap: 10px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    footer{
+      font-size: 13px;
+    }
+    } 
+
+  
+    
